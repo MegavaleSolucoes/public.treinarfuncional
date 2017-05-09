@@ -1,0 +1,18 @@
+// borda redonda 10 px
+
+@mixin borda_10{
+  border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;
+}
+
+// sombra em textos
+
+@mixin sombra_txt{
+  text-shadow: #000 2px 2px 3px;
+}
+
+// Borda Fina
+
+@mixin borda_fina{
+  border: thin solid #999999;
+}
+
